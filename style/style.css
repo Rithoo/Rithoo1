@@ -1,0 +1,161 @@
+
+.contenair{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+p,h1{
+    line-height: 1.4em;
+    word-spacing: 0.1rem;
+    padding: 0.5px;
+
+}
+
+.header{
+width: 78.8%;
+height: 210px;
+background-image: url(../images/header1.PNG);
+position: relative;
+position: fixed;
+z-index: 3;
+margin-left: 2px;
+}
+
+.bar{
+    margin:20px auto;
+    background-color: white;
+    width: 50px;
+    height: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.bar:hover{
+transform-style: preserve-3d;
+transform: rotateY(360deg);
+transition: transform 8s cubic-bezier(0.86,0,0.07,1);
+width: 5px;
+height: 25px;
+box-shadow: 7px 7px 7px 7px blue;
+}
+
+.memo{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+
+}
+.memo h1{
+    font-size: 2.5em;
+    padding: 7px;
+}
+
+.memo h2{
+  font-size: 1.8em;
+}
+
+.memo h3{
+    font-size: 1.5em;
+}
+
+.memo h2,h3,h1{
+    margin:0;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    
+}
+
+.bouton button{
+    background-color: rgb(49, 171, 228);
+    border: 0;
+    width: 180px;
+    height: 25px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 7px;
+    
+}
+
+.photos{
+    position: relative;
+    top: 210px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.photos img{
+    width: 213px;
+    height: 200px;
+    padding-top: 1px;
+
+   
+}
+
+.me_consernant{
+    position: relative;
+    width: 99.5%;
+    background-color: rgb(49, 171, 228);
+    top: 207px;
+    margin-left: 2px;
+}
+
+.memo_me{
+    position: relative;
+    display: grid;
+    text-align: center;
+    font-size: 7.5px;  
+}
+.memo_me h1{
+margin-top: 5px;
+font-size: 4em;
+letter-spacing: 0.2rem;
+
+
+}
+
+.memo_me p{
+    font-size: 1.9em;
+    flex-wrap: wrap;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.svgs{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+svg{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    fill: currentColor;
+    border-style:ridge;
+    border-color: white;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+a p{
+    margin: 0;
+    padding-top: 7px;
+}
